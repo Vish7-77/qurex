@@ -1019,13 +1019,14 @@ span {
 .onfoot {
   height: 100%;
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
 }
 
 .onfoot > img {
-  width: 30px;
-  height: 30px;
+  
+  position: absolute;
 }
 
 .ifH {
@@ -1080,6 +1081,41 @@ span {
   position: relative;
   width: 100%;
 }
+.footer01{
+    top: 18%;
+    right:0;
+    width: 55px;
+    height: 60px;
+}
+.footer2{
+    left: -30%;
+    width: 55px;
+    height: 60px;
+}
+.footer3{
+    right: -30%;
+    width: 55px;
+    height: 60px;
+}
+.footer4{
+    bottom: 20%;
+    width: 55px;
+    right: 1%;
+    height: 60px;
+}
+.footer5{
+    bottom: 10%;
+    width: 55px;
+    left: 12%;
+    height: 60px;
+}
+.footer6{
+    left: 10%;
+    top: 20%;
+    width: 55px;
+    height: 60px;
+}
+
 
 .upperth {
   background: #f2f7ff;
