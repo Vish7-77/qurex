@@ -7,7 +7,7 @@ import { Link} from "react-router-dom"
 import whatsapp from "../../../assets/whatsapp.svg"
 const Head = () => {
   return (
-   <section className="head">
+   <section className="head" id="header">
 <div className="inhead">
 <div className="inheadleft">
   <Link to="/">
@@ -32,7 +32,8 @@ const Head = () => {
 
 </div>
 <img src={robosv} alt="" />
-<button className='loginhome'>Login </button>
+<Link to="/auth" ><button className='loginhome' >Login </button>
+</Link>
 
 
 </div>

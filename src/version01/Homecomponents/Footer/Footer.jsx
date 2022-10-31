@@ -16,7 +16,7 @@ import {FiYoutube} from  "react-icons/fi"
 
 const Footer = () => {
   return (
-    <section className="footer">
+    <section className="footer" id="footer">
       <div className="leftfoot">
         <div className="onfoot">
           <img className="footer01" src={footer01} alt="" />
