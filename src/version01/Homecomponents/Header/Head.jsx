@@ -14,7 +14,7 @@ const Head = () => {
 <img src={mainlogo} alt="" />
 </Link>
 <span><Link to="/treatment" >sexual issue we treat</Link></span>
-<span>our sexologist</span>
+<span><Link to="/doctor" >our sexologist</Link></span>
 <span>sexual health guide </span>
 <span>sex-ed (for kids)</span>
 

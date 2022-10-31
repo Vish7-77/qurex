@@ -7,16 +7,13 @@ import Feedback from "../../version01/Homecomponents/LandingFeedb/Feedback"
 const Doctors = () => {
   return (
    <>
+
    <DocHero/>
    <AboutDoc/>
-   <HRF/>
+        <HRF/>
    <Docblogs/>
    <Feedback/>
-   
-   
-   
-   
-   
+
    </>
 
   )
