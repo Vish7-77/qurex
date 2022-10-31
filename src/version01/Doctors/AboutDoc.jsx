@@ -2,7 +2,7 @@ import React from 'react'
 import cal from "../../assets/cal.png"
 import globe from "../../assets/globe.png"
 import hat from "../../assets/hat.png"
-import call from "../../assets/call.png"
+// import call from "../../assets/call.png"
 const AboutDoc = () => {
   return (
 <section className="aboutanita">
