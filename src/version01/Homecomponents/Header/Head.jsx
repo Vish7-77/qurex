@@ -31,7 +31,7 @@ const Head = () => {
 
 
 </div>
-<img src={robosv} alt="" />
+<img className='rob' src={robosv} alt="" />
 <Link to="/auth" ><button className='loginhome' >Login </button>
 </Link>
 

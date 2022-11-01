@@ -2051,6 +2051,15 @@ line-height: 21px;
 
 }
 
+
+
+
+.dbb{
+  display: none;
+}
+
+
+
 .numlog{
     height: 90px;
     display: flex;
@@ -2121,4 +2130,116 @@ height: 100%;
     flex-direction: column;
     justify-content: space-around;
   
+}
+
+
+@media only screen and (max-width: 600px) {
+.inheadleft>span{
+  display: none;
+}
+.shi{
+  display: none;
+}
+
+.rob{
+  display: none;
+}
+ 
+
+.alldocs{
+  height: 304px;
+  width: 366px;
+  left: 15%;
+  
+
+}
+
+.switdown{
+  display: none;
+}
+
+.carous{
+  top: 50%;
+}
+
+.dnn{
+  display: none;
+}
+.swit{
+  height: 120vh;
+
+}
+.dbb{
+  display: block;
+}
+.switup02{
+  align-items: flex-start;
+}
+.landinghome {
+  flex-direction: column-reverse;
+}
+.lhheading{
+  font-size: 22px;
+  width: 154px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.lh02{
+  
+  width: auto;
+  height:40%;
+}
+
+.inlh02{
+  align-items: center;
+}
+
+.lhsubheading{
+  font-size: 16px;
+text-align: center;
+  width: 275px;
+
+
+
+
+}
+.arr{
+  right: 0;
+}
+
+.lh01{
+  width: 67%;
+  height: 50%;
+}
+.roundart{
+  height: 294px;
+  width: 471px;
+  top: 20%;
+  
+  scale: 1.4;
+}
+
+.lh03{
+  height: 260px;
+  bottom: -25%;
+}
+.inlh03{
+  flex-direction: column;
+  height: 100%;
+  padding-left: 12px;
+  border-radius: 18px;
+  width: 72%;
+}
+.inlj03one{
+  width: 100%;
+  justify-content: space-evenly;
+}
+.inlj03one>span{
+  width: 202px;
+  font-size: 14px;
+}
+.switup{
+  height: 100%;
+}
 }

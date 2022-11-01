@@ -16,7 +16,7 @@ const SIWT = () => {
 <div className="switup">
 <div className="switup01">
 <span>Sexual Issues We Treat</span>
-  <button className='switbtnva'>
+  <button className='dnn switbtnva'>
     View All
   </button>
 </div>
@@ -116,7 +116,11 @@ const SIWT = () => {
       </Swiper>
 
 
+      <button className='dbb btswit switbtnva'>
+    View All
+  </button>
 </div>
+
 <div className="switdown">
 
 
