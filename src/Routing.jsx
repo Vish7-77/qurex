@@ -12,6 +12,9 @@ import PassSign from './version01/Auth/PassSign'
 import SignupMob from './version01/Auth/SignupMob'
 import SubmitOtp from './version01/Auth/SubmitOtp'
 import NewReg from './version01/Auth/NewReg'
+import Consult from './version01/Doctors/Consult'
+// import Confirm from './version01/Doctors/Confirmpay'
+import Confirmpay from './version01/Doctors/Confirmpay'
 const Routing = () => {
   return (
 <BrowserRouter>
@@ -26,6 +29,8 @@ const Routing = () => {
 <Route path="/signupmob" element={<SignupMob/>}/>
 <Route path="/submitotp" element={<SubmitOtp/>}/>
 <Route path="/newreg" element={<NewReg/>}/>
+<Route path="/consullt-now" element={<Consult/>}/>
+<Route path="/confirm-pay" element={<Confirmpay/>}/>
 
 
 

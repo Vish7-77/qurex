@@ -4,7 +4,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 import 'swiper/less';
 import 'swiper/less/navigation';
+// import 'swiper/swiper-bundle.js'
+// import 'swiper/swiper-bundle.min.js'
+import 'swiper/swiper-bundle.css';
+import 'swiper/swiper-bundle.min.css';
 import 'swiper/less/pagination';
+
 import erc from "../../../assets/erc.png"
 import ls from "../../../assets/ls.png"
 import pm from "../../../assets/pm.png"
@@ -30,9 +35,8 @@ const SIWT = () => {
 </div>
 <div className="carous">
 <Swiper
-   spaceBetween={230}
-   slidesPerView={4}
-       
+        slidesPerView={3}
+        spaceBetween={30}
         pagination={{
           clickable: true,
         }}

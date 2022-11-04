@@ -1,8 +1,18 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import trtmnt01 from "../../../assets/trtmnt01.png"
 
 
 const LandingHero = () => {
+    const func=()=>{
+        document.getElementById('header').style.display="flex"
+        document.getElementById('footer').style.display="flex"
+     }
+     
+     
+     
+     useEffect(() => {
+      func()
+     }, [])
   return (
    <section className="trthero">
 
@@ -12,7 +22,7 @@ const LandingHero = () => {
 <div className="midth">
 <div className="innermidth">
     <div className="aboutmidth">
-   <span >
+   <span className='ab001' >
    <span className='whatis'>What is</span>
           <span className='ercdys'> 
 Erectile Dysfunction?</span>

@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import doc1 from "../../../assets/doc1.png"
 import doc2 from "../../../assets/doc2.png"
 import doc3 from "../../../assets/doc3.png"
@@ -6,7 +6,18 @@ import star from "../../../assets/star.png"
 import hat from "../../../assets/hat.png"
 import globe from "../../../assets/globe.png"
 import cal from "../../../assets/cal.png"
+
 const LandingOs = () => {
+  const func=()=>{
+    document.getElementById('header').style.display="flex"
+    document.getElementById('footer').style.display="flex"
+ }
+ 
+ 
+ 
+ useEffect(() => {
+  func()
+ }, [])
   return (
     <section className="los">
       <section className="inos">
@@ -24,9 +35,9 @@ const LandingOs = () => {
   <div className="losdown">
 <div className="losdownleft">
 
-<img src={doc1} alt="" />
-<img src={doc2} alt="" />
-<img src={doc3} alt="" />
+<img className="doc001" src={doc1} alt="" />
+<img className="doc002" src={doc2} alt="" />
+<img className="doc003"   src={doc3} alt="" />
 
 <input type="range" class="form-range" min="0" max="2" step="1" id="customRange3"></input>
 
@@ -90,7 +101,7 @@ Dr. Saravanan
 
   </div>
 
-
+  <button className="wosbtn"> View All Doctors</button>
 
       </section>
     </section>

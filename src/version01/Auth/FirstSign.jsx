@@ -30,7 +30,7 @@ useEffect(() => {
     </span>
 <span className='links'>
 <Link to="/auth" className='bblineb' >Use OTP</Link>
-<Link to="/otpauth" >Use Password</Link>
+<Link to="/passauth" >Use Password</Link>
 </span>
 
 <span className="numlog">
@@ -43,7 +43,7 @@ useEffect(() => {
    Login
 </button>
 
-<span className='regifnot'>Don’t have an account? <Link className='bbline' to="">Register here.</Link></span>
+<span className='regifnot'>Don’t have an account? <Link className='bbline' to="/newreg">Register here.</Link></span>
 
 
 

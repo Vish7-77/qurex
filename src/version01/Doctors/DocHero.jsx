@@ -1,7 +1,20 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import playblu from "../../assets/playblu.png"
+import {Link} from "react-router-dom"
 import dranita from "../../assets/dranita.png"
 const DocHero = () => {
+    const func=()=>{
+        document.getElementById('header').style.display="flex"
+        document.getElementById('footer').style.display="flex"
+     }
+     
+     
+     
+     useEffect(() => {
+      func()
+     }, [])
+     
+     
   return (
    <section className="dochero">
 <div className="indochero">
@@ -18,7 +31,7 @@ const DocHero = () => {
 <span className='discount'>( 30% Discount for Qurex User)</span>
 <div className="docsbtn">
 <button className='watch'><img src={playblu} alt="" /> Watch Video</button>
-<button className='consultdoc'>Consult Now</button>
+ <Link to="/consullt-now">   <button className='consultdoc'>Consult Now</button></Link>
 
 </div>
 
